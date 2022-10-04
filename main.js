@@ -14,12 +14,12 @@ const timesTable = {};
 /* --- YOUR CODE HERE --- */
 
 // outer for loop (row index)
-// inside outer loop, make an empty column object {} to store products from inner loop
+// inside outer loop, make an empty row object {} to store products from inner loop
 // inner for loop (column index)
 // calculate the product of the row index multiplied by the column index
-// store the resulting value in a new property in the column object
+// store the resulting value in a new property in the row object
 // the new property should be named with the current column index
-// after the end of the inner loop, store the column object into the timesTable object
+// after the end of the inner loop, store the row object into the timesTable object
 // the column object should be stored in a property named with the current row index
 
 /* --- TESTS --- */
